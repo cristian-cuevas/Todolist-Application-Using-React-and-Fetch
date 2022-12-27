@@ -1,12 +1,15 @@
-
-/* 
-
-    You can write your own styles here...
+html, body{
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+    background-color: white;
+}
 
-*/
+.hidden button{
+    display: none;
+    
+}
+
+.hidden:hover button {
+    display: block;
+}
